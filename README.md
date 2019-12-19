@@ -41,7 +41,7 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 ## Usage
 
 1. Clone this repository.  
-`git clone https://github.com/weaponsforge/server-basic.git`
+`git clone https://github.com/weaponsforge/react-basic.git`
 
 2. Install dependencies.  
 `npm install`
