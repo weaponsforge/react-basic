@@ -1,0 +1,29 @@
+{
+  "name": "server-basic",
+  "version": "1.0.0",
+  "description": "Basic express server for running tests.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev:static": "node index-static.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponsforge/server-basic.git"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "nodejs"
+  ],
+  "author": "weaponsforge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weaponsforge/server-basic/issues"
+  },
+  "homepage": "https://github.com/weaponsforge/server-basic#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
