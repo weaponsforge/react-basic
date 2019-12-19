@@ -14,6 +14,22 @@
 
 ## Content
 
+
+### React Project Files
+
+Referencing from **/public** directory.
+
+1. **index.html**, **like\_button.js**
+	- basic html page, includes **React library** from unkpg
+	- loads React component using Javascript
+
+2. **jsx.html**, **like\_button\_jsx.js**
+	- basic html page, includes **React library** and **babel** from unkpg
+	- loads React component using JSX
+
+
+### Express web server
+
 1. **index.js**  
 Basic express server set-up.
 
@@ -39,5 +55,5 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
    - `http://localhost:3000/test`
 
 
-20191030
+20191219
 
