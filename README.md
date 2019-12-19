@@ -52,7 +52,7 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 
 4. Open a web browser to  
    - `http://localhost:3000`
-   - `http://localhost:3000/test`
+   - `http://localhost:3000/jsx.html`
 
 
 20191219
