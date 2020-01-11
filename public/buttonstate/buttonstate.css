@@ -6,6 +6,7 @@
   border-color: aquamarine;
   border-style: solid;
   background-color: aquamarine;
+  outline: none;
 }
 
 .ButtonLogout {
@@ -13,7 +14,8 @@
   height: 40px;
   border-radius: 5px;
   border-width: 1.042px;
-  border-color: azure;
+  border-color: palegoldenrod;
   border-style: solid;
   background-color: palegoldenrod;
+  outline: none;
 }

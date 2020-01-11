@@ -4,6 +4,7 @@
   background-color: aquamarine;
   border: 0px;
   border-radius: 5px;
+  outline: none;
 }
 
 .ButtonEvent-link {
