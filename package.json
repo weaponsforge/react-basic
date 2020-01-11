@@ -4,8 +4,7 @@
   "description": "Basic express server for running tests.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev:static": "node index-static.js",
+    "start": "node index-static.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

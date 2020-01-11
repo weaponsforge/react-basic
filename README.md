@@ -51,8 +51,13 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 	- `npm run dev:static` to start the basic express server that loads static (front-end) files from the **/public** directory. *(Required)*
 
 4. Open a web browser to  
-   - `http://localhost:3000`
-   - `http://localhost:3000/jsx.html`
+   - Run the react app using regular javascript syntax):  
+`http://localhost:3000` 
+   - Runs the react app using JSX syntax, loading babel from unpkg:  
+`http://localhost:3000/jsx_unpkg.html` 
+   - Runs the react app using JSX syntax, loading babel from localhost:  
+      - `npx babel --watch src --out-dir ./public/jsx --presets react-app/prod`  
+      - `http://localhost:3000/jsx_local.html` 
 
 
 20191219
