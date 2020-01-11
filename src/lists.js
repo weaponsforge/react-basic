@@ -1,3 +1,10 @@
+/**
+ * lists.js
+ * Experiments on Lists and Keys usage.
+ */
+
+'use strict'
+
 function ListItem(props) {
   return <li>{ props.value }</li>
 }
