@@ -1,0 +1,19 @@
+html, body {
+  background-color: palegreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.AppContainer {
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 20px 0px 30px 0px;
+  margin-top: 10%;
+  border-radius: 5px;
+  box-shadow: 0px 9px 9.2px 0.8px rgba(0, 0, 0, 0.15);
+}
+
+.AppContainer-elements {
+  width: 320px;
+  margin: auto;
+}

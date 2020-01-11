@@ -1,0 +1,19 @@
+.ButtonLogin {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 1.042px;
+  border-color: aquamarine;
+  border-style: solid;
+  background-color: aquamarine;
+}
+
+.ButtonLogout {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 1.042px;
+  border-color: azure;
+  border-style: solid;
+  background-color: palegoldenrod;
+}

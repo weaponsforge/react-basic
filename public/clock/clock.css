@@ -1,0 +1,16 @@
+
+.Clock {
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 0px 30px 0px;
+  box-shadow: 0px 9px 9.2px 0.8px rgba(0, 0, 0, 0.15);
+  margin-top: 10%;
+}
+
+.Clock-elements {
+  width: 310px;
+  margin: auto;
+  overflow: auto;
+}
