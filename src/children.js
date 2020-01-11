@@ -25,11 +25,11 @@ class FormButton extends React.Component {
   }
 }
 
-class MyForm extends React.Component {
+class AppContainer extends React.Component {
   render() {
     return (
-      <div className="MyForm">
-        <div className="MyForm-elements">
+      <div className="AppContainer">
+        <div className="AppContainer-elements">
           <h2>{ this.props.title }</h2>
           <FormInputText classname="MyForm-username" placeholder="Username"/>
           <FormInputText classname="MyForm-password" placeholder="Password" type="password" />
@@ -41,7 +41,7 @@ class MyForm extends React.Component {
   }
 }
 
-const myform = <MyForm title="Registration Form" />
+const myform = <AppContainer title="Registration Form" />
 const loadForm = function() {
   ReactDOM.render(myform, document.querySelector('#root'))
 }

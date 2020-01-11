@@ -1,20 +1,10 @@
-.MyForm {
-  width: 400px;
-  background-color: white;
-  border-radius: 5px;
-  margin: auto;
-  padding: 5px 0px 20px 0px;
-  box-shadow: 0px 9px 9.2px 0.8px rgba(0, 0, 0, 0.15);
-  margin-top: 10%;
-}
-
-.MyForm-elements {
+.AppContainer-elements {
   width: 320px;
   margin: auto;
   overflow: auto;
 }
 
-.MyForm input {
+input {
   width: 310px;
   height: 40px;
   border-width: 1.042px;
@@ -26,9 +16,10 @@
   margin-bottom: 1.33em;
   border-radius: 5px;
   font-size: 14px;
+  outline: none;
 }
 
-.MyForm button {
+button {
   width: 120px;
   height: 40px;
   border-radius: 5px;
