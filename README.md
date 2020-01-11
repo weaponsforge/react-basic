@@ -28,15 +28,6 @@ Referencing from **/public** directory.
 	- loads React component using JSX
 
 
-### Express web server
-
-1. **index.js**  
-Basic express server set-up.
-
-2. **index-static.js**  
-Basic express server set-up that serves static (html, css, js) scripts from the **/public** directory.
-
-
 
 ## Usage
 
@@ -47,8 +38,7 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 `npm install`
 
 3. Run the server.  
-	- `npm run start` to start the basic express server
-	- `npm run dev:static` to start the basic express server that loads static (front-end) files from the **/public** directory. *(Required)*
+	`npm run start`  to start the basic express server that loads static (front-end) files from the **/public** directory. *(Required)*
 
 4. Open a web browser to  
 	- Run the react app using regular javascript syntax):  
@@ -60,11 +50,16 @@ Basic express server set-up that serves static (html, css, js) scripts from the 
 			`npm install babel-cli@6 babel-preset-react-app@3`
       - Run babel, create/edit react components from **/src** as needed:  
 			`npx babel --watch src --out-dir ./public/jsx --presets react-app/prod`  
-      - Load the react app:  
-			`http://localhost:3000/jsx_local.html`
+      - Load the react app(s):  
+			- `http://localhost:3000/jsx_local.html`
+			- `http://localhost:3000/children`
+			- `http://localhost:3000/clock`
+			- `http://localhost:3000/conditionals`
+			- `http://localhost:3000/eventhandler`
+			- `http://localhost:3000/lists`
 
 
 @weaponsforge  
 20191219  
-20200111
+20200112
 
