@@ -5,3 +5,10 @@ body, html {
 .hello {
   background-color: goldenrod;
 }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: palegoldenrod;
+  border: 2px solid green;
+}
