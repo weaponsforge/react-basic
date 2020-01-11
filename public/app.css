@@ -1,4 +1,11 @@
 html, body {
+  margin: 0;
+  /*
+  background: rgb(197,212,229);
+  background: linear-gradient(101deg, rgba(197,212,229,1) 0%, rgba(38,107,195,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  */
   background-color: palegreen;
   font-family: Arial, Helvetica, sans-serif;
 }
