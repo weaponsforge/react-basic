@@ -7,7 +7,10 @@
 
 // Create a context
 const ThemeContext = React.createContext('light')
-const ServerContext = React.createContext('light')
+const ServerContext = React.createContext({
+  theme: 'dark',
+  toggleTheme: () => {}
+})
 
 class AppContainer extends React.Component {
   render() {
@@ -44,13 +47,24 @@ class FormInputText extends React.Component {
 
 // Button
 class FormButton extends React.Component {
-  static contextType = ThemeContext
+  static contextType = ServerContext
   render() {
     return (
-      <button className={`Theme-${this.context}`}>{this.props.text}</button>
+      <ServerContext.Consumer>
+        {({theme, toggleTheme}) => (
+          <button 
+            onClick={toggleTheme}
+            className={`Theme-${theme}`}>
+            {this.props.text}
+          </button>
+        )}
+      </ServerContext.Consumer>
     )
   }
 }
+
+// Assign a Context directly to the Class
+// FormButton.contextType = ServerContext
 
 const loadApp = function() {
   ReactDOM.render(<AppContainer />, document.querySelector('#root'))
