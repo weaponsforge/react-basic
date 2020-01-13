@@ -1,0 +1,41 @@
+.AppContainer-elements {
+  width: 320px;
+  margin: auto;
+  overflow: auto;
+}
+
+input {
+  width: 310px;
+  height: 40px;
+  border-width: 1.042px;
+  border-color: rgb(192, 201, 207);
+  border-style: solid;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 8px;
+  margin-bottom: 1.33em;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border-width: 1.042px;
+  border-color: aquamarine;
+  border-style: solid;
+  padding: 8px;
+  background-color: aquamarine;
+  float: right;
+  outline: none;
+}
+
+.Theme-light {
+  border-color: palegreen;
+}
+
+.Theme-dark {
+  border-color: green;
+}
