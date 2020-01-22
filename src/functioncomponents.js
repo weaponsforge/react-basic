@@ -7,10 +7,23 @@
 
 function AppContainer() {
   const [form, setForm] = React.useState({ username: '', password: ''})
+  const [count, setCount] = React.useState(0)
+
+  // Hook for "componentDidUpdate"
+  React.useEffect(() => {
+    console.log(`count was updated: ${count}`)
+    document.title = count
+
+    // Clean-up function to be called after every "useEffect" and during "componentWillUnmount"
+    return () => {
+      console.log('cleaning up...')
+    }
+  })
 
   const handleInputChange = (e) => {
     const { id, value } = e.target
     setForm({...form, [id]: value })
+    setCount(count + 1)
   }
 
   const onSubmit = () => {
